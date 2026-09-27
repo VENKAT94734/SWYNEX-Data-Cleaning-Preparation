@@ -1,0 +1,2 @@
+Issue,Before,After,Action
+Run src/clean_data.py to generate the final report,,,The script creates reports/data_quality_report.csv
