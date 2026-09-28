@@ -1,0 +1,6 @@
+Total Customers = DISTINCTCOUNT('cleaned_dataset'[Customer_ID])
+Total Purchase Amount = SUM('cleaned_dataset'[Purchase_Amount])
+Average Purchase Amount = AVERAGE('cleaned_dataset'[Purchase_Amount])
+Average Annual Income = AVERAGE('cleaned_dataset'[Annual_Income])
+Maximum Purchase = MAX('cleaned_dataset'[Purchase_Amount])
+Purchase per Customer = DIVIDE([Total Purchase Amount],[Total Customers],0)

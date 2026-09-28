@@ -1,0 +1,11 @@
+import pandas as pd
+df=pd.read_csv('data/raw/raw_dataset.csv')
+for c in ['Customer_Name','Gender','City']: df[c]=df[c].astype('string').str.strip()
+df['Gender']=df['Gender'].replace({'M':'Male','male':'Male','F':'Female','female':'Female'})
+df['City']=df['City'].str.title()
+for c in ['Age','Annual_Income','Purchase_Amount']: df[c]=pd.to_numeric(df[c],errors='coerce')
+df['Purchase_Date']=pd.to_datetime(df['Purchase_Date'],errors='coerce')
+df=df.drop_duplicates()
+for c in ['Age','Annual_Income','Purchase_Amount']: df[c]=df[c].fillna(df[c].median())
+df.to_csv('data/cleaned/cleaned_dataset.csv',index=False)
+print('Cleaned records:',len(df))

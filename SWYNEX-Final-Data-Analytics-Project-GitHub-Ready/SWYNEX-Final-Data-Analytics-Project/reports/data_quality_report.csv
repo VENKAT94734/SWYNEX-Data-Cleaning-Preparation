@@ -1,0 +1,5 @@
+Issue,Before,After,Method,Purpose
+Raw records,30,Final records,29,Removed exact duplicate
+Invalid Annual Income,1,0 after cleaning,Median imputation,Converted non-numeric value
+Gender labels,M/male/F/female,Male/Female,Standardized,Categorical consistency
+City labels,Mixed case/whitespace,Standardized,Standardized,Text normalization

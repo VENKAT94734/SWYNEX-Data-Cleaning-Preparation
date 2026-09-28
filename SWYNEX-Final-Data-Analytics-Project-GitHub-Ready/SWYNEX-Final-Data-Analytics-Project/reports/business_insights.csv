@@ -1,0 +1,9 @@
+ID,Area,Finding,Business_Use
+1,Customer concentration,City-level customer counts can be compared to identify the largest customer segments.,Use city segmentation for campaign planning.
+2,Gender behavior,Customer count and purchase value can be compared by gender.,Use demographic segmentation alongside other variables.
+3,Income profile,Annual income varies across the customer base.,Income bands can support descriptive segmentation.
+4,City purchase behavior,Average purchase values differ across cities.,Compare city-level averages before allocating campaigns.
+5,High-value customers,Some customers generate substantially higher purchase values.,Consider retention analysis for high-value customers.
+6,Income relationship,Income and purchase amount can be inspected together using a scatter plot.,"Treat the relationship as descriptive, not causal."
+7,Monthly trend,Monthly aggregation reveals changes in purchase activity.,Use trends to evaluate campaign timing.
+8,Data quality,Duplicate and inconsistent values were corrected before analysis.,Validate data before dashboard refreshes.
