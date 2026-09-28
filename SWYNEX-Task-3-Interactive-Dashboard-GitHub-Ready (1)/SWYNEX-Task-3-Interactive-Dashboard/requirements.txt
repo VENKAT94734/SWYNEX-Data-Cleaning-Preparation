@@ -1,0 +1,5 @@
+# Task 3 dashboard does not require Python to run in Power BI.
+# Optional Python environment for data inspection:
+pandas
+matplotlib
+jupyter

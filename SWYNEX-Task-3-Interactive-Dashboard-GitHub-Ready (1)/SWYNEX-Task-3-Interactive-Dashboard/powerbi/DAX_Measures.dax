@@ -1,0 +1,29 @@
+-- SWYNEX Task 3 - Power BI DAX Measures
+
+Total Customers = DISTINCTCOUNT('CustomerData'[Customer_ID])
+
+Total Purchase = SUM('CustomerData'[Purchase_Amount])
+
+Average Purchase = AVERAGE('CustomerData'[Purchase_Amount])
+
+Average Annual Income = AVERAGE('CustomerData'[Annual_Income])
+
+Maximum Purchase = MAX('CustomerData'[Purchase_Amount])
+
+Minimum Purchase = MIN('CustomerData'[Purchase_Amount])
+
+Total Income = SUM('CustomerData'[Annual_Income])
+
+Male Customers = CALCULATE([Total Customers], 'CustomerData'[Gender] = "Male")
+
+Female Customers = CALCULATE([Total Customers], 'CustomerData'[Gender] = "Female")
+
+Purchase per Customer = DIVIDE([Total Purchase], [Total Customers])
+
+Purchase Share % =
+DIVIDE(
+    [Total Purchase],
+    CALCULATE([Total Purchase], ALL('CustomerData'))
+)
+
+City Average Purchase = AVERAGE('CustomerData'[Purchase_Amount])
