@@ -1,0 +1,5 @@
+Issue,Before,After,Action
+Missing values,71,0,"Handled using median, Unknown, and date mode"
+Duplicate records,0,0,Removed exact duplicate rows
+Incorrect data types,Multiple,Standardized,Converted numeric and date columns
+Inconsistent categorical values,Multiple,Standardized,Standardized Gender and City

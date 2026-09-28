@@ -1,0 +1,9 @@
+Insight,Finding
+Customer concentration,Hyderabad has 14 customers.
+Gender distribution,Male has 15 customers.
+Income profile,Average income is 55766.67; median is 55500.00.
+City-wise purchase behavior,Hyderabad has the highest average purchase amount: 1750.00.
+Highest individual purchase,Aarav Sharma has the highest purchase amount: 1750.00.
+Income vs purchase relationship,Pearson correlation between income and purchase amount is nan.
+Monthly trend,2026-01 has the highest total purchase amount: 38500.00.
+Anomaly check,0 purchase-amount observation(s) fall outside the IQR bounds.

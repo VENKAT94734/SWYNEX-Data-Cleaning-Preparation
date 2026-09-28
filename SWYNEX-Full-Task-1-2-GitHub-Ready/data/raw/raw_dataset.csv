@@ -1,0 +1,31 @@
+Customer_ID,Customer_Name,Gender,Age,City,Annual_Income,Purchase_Date,Purchase_Amount
+1001,Aarav Sharma,Male,22,Hyderabad,45000,2026-01-05,1250.5
+1002,Priya Reddy,Female,24, Hyderabad ,52000,05/01/2026,2100.0
+1003,Rahul Kumar,M,27,Secunderabad,48000,2026/01/08,1750
+1004,Sneha Rao,female,23,HYDERABAD,61000,2026-01-10,3200.75
+1005,Vikram Singh,m,29,Secunderabad ,,11-01-2026,1800.0
+1006,Anjali Patel,F,,Hyderabad,57000,2026-01-12,2450.25
+1007,Kiran Reddy,Male,31,Warangal,45000,2026-01-15,1650.0
+1008,Meena Das,FEMALE,26,warangal,53000,15/01/2026,2800.0
+1009,Rohit Verma,male,28,Hyderabad,50000,2026-01-18,1950.5
+1010,Divya Nair,Female,25,Secunderabad,59000,2026-01-20,3100.0
+1011,Arjun Mehta,M,30, Hyderabad,47000,20/01/2026,2250.0
+1012,Pooja Shah,female,27,Warangal,62000,2026-01-22,3500.0
+1013,Suresh Rao,Male,35,Hyderabad,68000,2026-01-25,4100.0
+1014,Neha Gupta,F,24,Secunderabad,51000,2026-01-27,2700.0
+1015,Manish Yadav,m,33,HYDERABAD,56000,2026-01-29,2900.0
+1016,Lakshmi Devi,Female,32,Warangal ,64000,,3300.0
+1017,Rakesh Jain,Male,29,Hyderabad,49000,2026-02-02,1850.0
+1018,Swathi Reddy,F,26,Secunderabad,55000,02/02/2026,2600.0
+1019,Naveen Kumar,Male,27,Warangal,abc,2026-02-05,2200.0
+1020,Ishita Roy,female,23,Hyderabad,58000,2026-02-07,3000.0
+1021,Aarav Sharma,Male,22,Hyderabad,45000,2026-01-05,1250.5
+1022,Kavya Menon,,28,Secunderabad,60000,2026-02-10,2750.0
+1023,Aditya Rao,Male,34,Hyderabad,67000,10/02/2026,3900.0
+1024,Riya Singh,F,25,warangal,54000,2026-02-12,2400.0
+1025,Vishal Gupta,M,30,Secunderabad,51000,2026-02-15,2550.0
+1026,Tanvi Shah,Female,29,Hyderabad ,63000,2026/02/17,3250.0
+1027,Harish Kumar,male,36,WARANGAL,72000,17-02-2026,4400.0
+1028,Nisha Rao,Female,24,Secunderabad,50000,2026-02-20,2350.0
+1029,Deepak Verma,M,32,Hyderabad,59000,20/02/2026,2850.0
+1030,Sanjana Patel,F,27,Warangal,61000,2026-02-22,3150.0
